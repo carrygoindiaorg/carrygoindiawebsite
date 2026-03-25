@@ -1,0 +1,68 @@
+/* CarryGo Custom Styles - Transport Services - Purple Theme */
+.App {
+  overflow-x: hidden;
+}
+
+/* Primary purple color */
+:root {
+  --carrygo-purple: #3c096c;
+  --carrygo-purple-dark: #240046;
+  --carrygo-purple-light: #5a189a;
+  --carrygo-gold: #FFA500;
+}
+
+/* Gradient text effect */
+.gradient-text {
+  background: linear-gradient(135deg, #3c096c, #7209b7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hide PNG transparency checkerboard */
+img[src*=".PNG"], img[src*=".png"] {
+  image-rendering: crisp-edges;
+}
+
+/* Button hover effects - Optimized */
+button {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  will-change: transform;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Card hover effects - Optimized */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(60, 9, 108, 0.2);
+}
+
+/* Fade in animation - Faster */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+/* Performance optimization */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
