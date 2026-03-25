@@ -193,7 +193,7 @@ export const faqData = [
 export const contactInfo = {
   address: "Office No. 301, Tech Park, Hinjewadi Phase 1, Pune, Maharashtra 411057",
   phone: "+91 9370920139",
-  email: "Carrygo567@gmail.com",
+  email: "admin@carrygoindia.com",
   socialMedia: {
     facebook: "https://www.facebook.com/share/1AfFgaymMc/?mibextid=wwXIfr",
     twitter: "https://x.com/carrygoindia?s=11",
